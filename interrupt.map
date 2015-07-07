@@ -1,0 +1,44 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Thu Jan 22 15:17:02 2015
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000002    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x00002a    program   0x000078
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x000009      
+                            0x00002a    0x0000a1      
+            126 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Initial   0x00002a    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                    TABLE   0x000086    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                interrupt   0x00005c    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                     main   0x00004e    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                   notime   0x00007a    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Initial   0x00002a    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                     main   0x00004e    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                interrupt   0x00005c    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                   notime   0x00007a    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+                    TABLE   0x000086    program     static D:\project\PIC\PIC_projext\Interrupt\main.asm
+
+
